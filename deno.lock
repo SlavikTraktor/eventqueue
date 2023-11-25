@@ -1,0 +1,37 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@types/pubsub-js@1.8.6": "npm:@types/pubsub-js@1.8.6",
+      "npm:date-fns@2.30.0": "npm:date-fns@2.30.0",
+      "npm:pubsub-js@1.9.4": "npm:pubsub-js@1.9.4"
+    },
+    "npm": {
+      "@babel/runtime@7.23.4": {
+        "integrity": "sha512-2Yv65nlWnWlSpe3fXEyX5i7fx5kIKo4Qbcj+hMO0odwaneFjfXw5fdum+4yL20O0QiaHpia0cYQ9xpNMqrBwHg==",
+        "dependencies": {
+          "regenerator-runtime": "regenerator-runtime@0.14.0"
+        }
+      },
+      "@types/pubsub-js@1.8.6": {
+        "integrity": "sha512-Kwug5cwV0paUDm/NfwDx1sp9xI0bGIvmWJjJWCU8NngkCCMt3EIC7oPDvb6fV7BR8kPpFyyBu4D11bda/2MdPA==",
+        "dependencies": {}
+      },
+      "date-fns@2.30.0": {
+        "integrity": "sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==",
+        "dependencies": {
+          "@babel/runtime": "@babel/runtime@7.23.4"
+        }
+      },
+      "pubsub-js@1.9.4": {
+        "integrity": "sha512-hJYpaDvPH4w8ZX/0Fdf9ma1AwRgU353GfbaVfPjfJQf1KxZ2iHaHl3fAUw1qlJIR5dr4F3RzjGaWohYUEyoh7A==",
+        "dependencies": {}
+      },
+      "regenerator-runtime@0.14.0": {
+        "integrity": "sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
