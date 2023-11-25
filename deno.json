@@ -5,6 +5,8 @@
     "@types/pubsub-js": "npm:@types/pubsub-js@1.8.6"
   },
   "tasks": {
-    "start": "deno run -A index.ts"
-  }
+    "start": "deno run -A index.ts",
+    "install": "deno vendor index.ts"
+  },
+  "nodeModulesDir": true
 }
