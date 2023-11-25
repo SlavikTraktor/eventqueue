@@ -1,7 +1,8 @@
 {
   "imports": {
     "date-fns": "npm:date-fns@2.30.0",
-    "pubsub-js": "npm:pubsub-js@1.9.4"
+    "pubsub-js": "npm:pubsub-js@1.9.4",
+    "@types/pubsub-js": "npm:@types/pubsub-js@1.8.6"
   },
   "tasks": {
     "start": "deno run -A index.ts"

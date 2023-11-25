@@ -1,4 +1,4 @@
-// @deno-types="npm:@types/pubsub-js@1.8.6"
+// @deno-types="@types/pubsub-js"
 import PubSub from "pubsub-js";
 
 export interface BasePubSubClass<T> {
